@@ -1,4 +1,5 @@
 @use './partials/reset.scss';
+@use './partials/header.scss';
 
 .hero{
     color: white;
@@ -7,8 +8,13 @@
     background-image: url('/img/avadabarbers-homepage-hero-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    height: max-content;
+    position: relative;
+    
 }
 .container{
     width: 1024px;
     margin: 0 auto;
+    padding-top: 30px;
+    height: 970px;
 }

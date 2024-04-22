@@ -2,30 +2,37 @@
     <div class="nav-bar">
         <img src="/img/avadabarbers-logo-x2-300x104.png" alt="" class="logo">
         <div class="nav-items">
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars" @click="db.openMenu = true"></i>
             <i class="fa-solid fa-cart-shopping"></i>
         </div>
+        <ul :class="db.openMenu === false ? 'menu d-none':'menu d-flex'">
+            <li class="close" @click="db.openMenu = false"><i class="fa-solid fa-xmark"></i></li>
+            <HamburgherContent v-for="(link,i) in db.menuLink " :key="i" :item="link" />
+        </ul>
     </div>
 </template>
 
 <script>
+import {db} from '../store.js'
+import HamburgherContent from '../components/HamburgherContent.vue';
     export default {
+        data(){
+            return{
+                db
+            }
+            
+            
+        },
+        components:{
+
+            HamburgherContent
+
+        }
         
     }
 </script>
 
 <style lang="scss" scoped>
-.nav-bar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.logo{
-    width: 150px;
-}
-.nav-items{
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 10px;
-}
+@use '../style/partials/header.scss';
+
 </style>
