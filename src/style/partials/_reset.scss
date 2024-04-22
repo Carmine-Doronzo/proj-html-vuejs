@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+img{
+    max-width: 100%;
+    display: block;
+
+}
+
+ul,ol,menu{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+    display: inline-block;
+}

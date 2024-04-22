@@ -1,16 +1,28 @@
 <template>
-  <div>
+  <div class="bg">
+    <div class="container">
+      <div class="hero">
+        <HeaderComponent />
+        <MainComponent />
 
+      </div>
+    </div>
   </div>
+
 </template>
 
 <script>
-  export default {
-    
+import HeaderComponent from './components/HeaderComponent.vue';
+import MainComponent from './components/MainComponent.vue'
+export default {
+  components: {
+    HeaderComponent,
+    MainComponent
   }
+
+}
 </script>
 
 <style lang="scss" scoped>
 @use './style/general.scss';
-
 </style>

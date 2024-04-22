@@ -1,0 +1,14 @@
+@use './partials/reset.scss';
+
+.hero{
+    color: white;
+}
+.bg{
+    background-image: url('/img/avadabarbers-homepage-hero-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
