@@ -1,13 +1,10 @@
 <template>
-  <div class="bg">
-    <div class="container">
-      <div class="hero">
+  
         <HeaderComponent />
         <MainComponent />
 
-      </div>
-    </div>
-  </div>
+      
+  
 
 </template>
 

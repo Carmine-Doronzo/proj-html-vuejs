@@ -1,0 +1,22 @@
+.hero{
+    color: white;
+}
+.bg-hero{
+    background-image: url('/img/avadabarbers-homepage-hero-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: max-content;
+    //position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    
+}
+.container{
+    width: 1024px;
+    margin: 0 auto;
+    padding-top: 30px;
+    height: 970px;
+    margin-bottom: -57px;
+}
