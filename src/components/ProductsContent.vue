@@ -11,7 +11,7 @@
                 </div>
 
             </div>
-            <p class="our-services">SHOP OUR PRODUCT RANGE</p>
+            <p class="our-products">SHOP OUR PRODUCT RANGE</p>
         </div>
 
     </div>
