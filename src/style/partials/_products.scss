@@ -1,0 +1,45 @@
+.bg-products {
+    background-image: url('/img/avadabarbers-reviewsbackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1200px;
+    //padding-top: 150px;
+    text-align: center;
+    //margin-top: -40px;
+    //gap: 60px;
+
+}
+.container-products{
+    width: 1600px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.products-title {
+    font-size: 20px;
+    color: #be9359;
+    margin-top: -170px;
+}
+
+.products-description {
+    font-size: 80px;
+    color: #b0b0b0;
+}
+
+.card-products {
+    width: calc((4 * 100%) / 12);
+    color: #be9359;
+
+}
+.card-products > h2{
+    font-size: 30px;
+}
