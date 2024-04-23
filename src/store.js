@@ -54,6 +54,44 @@ export const db = reactive({
             description:'Tame the tangles and untidy facial hairs like a gentleman with our Beard tidy services from Avada Barbers.'
         },
 
+    ],
+    products:[
+        {
+            name:'Brush',
+            img: '/img/brush_dark-800x800.png',
+            price:'$15.00',
+            description:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit error unde suscipit nostrum repellat quibusdam, nam nihil natus provident dolor sint fuga porro velit fugit, autem libero reprehenderit.'
+        },
+        {
+            name:'Scissors',
+            img: '/img/scissors-800x800.png',
+            price:'$85.00',
+            description:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit error unde suscipit nostrum repellat quibusdam, nam nihil natus provident dolor sint fuga porro velit fugit, autem libero reprehenderit.'
+        },
+        {
+            name:'Hot Oil',
+            img: '/img/hot_oil_dark-800x800.png',
+            price:'$15.00',
+            description:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit error unde suscipit nostrum repellat quibusdam, nam nihil natus provident dolor sint fuga porro velit fugit, autem libero reprehenderit.'
+        },
+        {
+            name:'Straight Razor',
+            img: '/img/straight_razor_dark-800x800.png',
+            price:'$30.00',
+            description:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit error unde suscipit nostrum repellat quibusdam, nam nihil natus provident dolor sint fuga porro velit fugit, autem libero reprehenderit.'
+        },
+        {
+            name:'Safety Set',
+            img: '/img/safety_set-800x800.png',
+            price:'$30.00',
+            description:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit error unde suscipit nostrum repellat quibusdam, nam nihil natus provident dolor sint fuga porro velit fugit, autem libero reprehenderit.'
+        },
+        {
+            name:'Shaving Butter',
+            img: '/img/shaving_butter-800x800.png',
+            price:'$15.00',
+            description:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit error unde suscipit nostrum repellat quibusdam, nam nihil natus provident dolor sint fuga porro velit fugit, autem libero reprehenderit.'
+        },
     ]
 
 })
