@@ -10,7 +10,7 @@ export const db = reactive({
         },
         {
             name:'About Us',
-            src:'www.google.com'
+            src:'primo'
         },
         {
             name:'Services',
@@ -33,6 +33,27 @@ export const db = reactive({
             src:'www.google.com'
         },
     ],
-    openMenu: false
+    openMenu: false,
+
+    services:
+    [
+        {
+            name:'Trim & Cut',
+            img:'/img/avadabarbers-trimcut-icon-before.png',
+            description:'Avada Barbers are experts i nthe lickety split trim and hair cut. Quick but careful and ridiculously good loking.'
+        
+        },
+        {
+            name:'Wash & Dry',
+            img:'/img/avadabarbers-washndry-icon.png',
+            description:'Take a seat in our fine leather chairs, lean back and let us lather you a fresh head in a luxurious fashion.'
+        },
+        {
+            name:'Beard Tidy',
+            img:'/img/avadabarbers-beardtrim-icon.png',
+            description:'Tame the tangles and untidy facial hairs like a gentleman with our Beard tidy services from Avada Barbers.'
+        },
+
+    ]
 
 })
