@@ -18,6 +18,7 @@
     //gap: 30px;
 }
 .row-carousel{
+    width: 100%;
     gap: 0;
     border-top: 7px solid  #be9359 ;
     display: flex;
@@ -28,7 +29,7 @@
 }
 
 .container-carousel{
-    width: 1000px;
+    width: 1200px;
     display: flex;
     margin: 0 auto;
     
