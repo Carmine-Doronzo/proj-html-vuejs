@@ -40,6 +40,7 @@ export default {
     background-image: url('/img/avadabarbers-homepage-hero-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 1024px;
     //background-position: top;
     
     position: absolute;
