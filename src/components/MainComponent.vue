@@ -21,14 +21,15 @@
         <div class="our-services">READ ABOUT OUR SERVICES</div>
     </div>
     <img src="/img/triangle.svg" alt="" class="triangle bg-triangle">
-    
-    <ProductsContent/>
-    
-    
-    <ProductsCarouselContent/>
+
+    <ProductsContent />
+
+
+    <ProductsCarouselContent />
 
     <ReviewsContent />
-    
+    <BlogsContent />
+
 
 </template>
 
@@ -39,13 +40,15 @@ import ServicesContent from '../components/ServicesContent.vue'
 import ProductsContent from '../components/ProductsContent.vue'
 import ProductsCarouselContent from '../components/ProductsCarouselContent.vue'
 import ReviewsContent from '../components/ReviewsContent.vue'
+import BlogsContent from '../components/BlogsContent.vue'
 import { db } from '../store.js'
 export default {
     data() {
         return {
             service: db.services,
             
-           
+
+
         }
 
     },
@@ -55,7 +58,9 @@ export default {
         ServicesContent,
         ProductsContent,
         ProductsCarouselContent,
-        ReviewsContent
+        ReviewsContent,
+        BlogsContent
+
 
     }
 
