@@ -165,6 +165,7 @@ export const db = reactive({
             title:'Quick Service Guide',
             text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odio velit dolores sed laboriosam! Perspiciatis, nobis quidem?'
         },
-    ]
+    ],
+    i:0
 
 })
