@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-header"></div>
+    <div class="bg-header" id="header"></div>
     <div class="nav-bar">
         <img src="/img/avadabarbers-logo-x2-300x104.png" alt="" class="logo">
         <div class="nav-items">
@@ -38,18 +38,5 @@ export default {
 <style lang="scss" scoped>
 @use '../style/partials/header.scss';
 
-.bg-header {
-    background-image: url('/img/avadabarbers-homepage-hero-bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 970px;
-    //background-position: top;
 
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-}
 </style>

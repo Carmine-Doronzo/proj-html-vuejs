@@ -1,5 +1,6 @@
 .bg-191a1a {
     background-color: #191a1a;
+   
 }
 .bg-1c1d1e{
     background-color: #1c1d1e;
@@ -56,4 +57,13 @@
     //margin: 15px;
     background-color: #be925910;
     cursor: pointer;
+}
+.home{
+    border-radius: 5px;
+    background-color: #333333;
+    padding: 10px 10px 0 10px;
+    position: fixed;
+    bottom:0;
+    right: 100px;
+    color: white;
 }

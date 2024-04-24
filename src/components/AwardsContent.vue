@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-awards">
+    <div class="bg-awards" id="awards">
 
         <div class="container height">
             <div class="award">

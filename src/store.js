@@ -6,31 +6,31 @@ export const db = reactive({
         [
             {
                 name: 'Home',
-                src: 'www.google.com'
+                src: '#header'
             },
             {
                 name: 'About Us',
-                src: 'primo'
+                src: '#awards'
             },
             {
                 name: 'Services',
-                src: 'www.google.com'
+                src: '#services'
             },
             {
                 name: 'shop',
-                src: 'www.google.com'
+                src: '#shopping'
             },
             {
                 name: 'Our Team',
-                src: 'www.google.com'
+                src: '#review'
             },
             {
                 name: 'Blog',
-                src: 'www.google.com'
+                src: '#blog'
             },
             {
                 name: 'Contact Us',
-                src: 'www.google.com'
+                src: '#footer'
             },
         ],
     openMenu: false,

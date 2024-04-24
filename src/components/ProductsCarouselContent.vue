@@ -39,7 +39,7 @@ export default {
         },
         next(){
             this.i++
-            if(this.i > this.product.length){
+            if(this.i >= this.product.length){
                 this.i = 0
             }
         }

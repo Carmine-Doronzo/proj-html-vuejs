@@ -1,8 +1,9 @@
 .hero-section {
-    padding-top: 20%;
+    //padding-top: 20%;
     display: flex;
     flex-direction: column;
     gap: 40px;
+    margin-left: -20px;
 }
 .row{
     display: flex;
@@ -11,7 +12,7 @@
     width: calc((6 * 100%) / 12);
 }
 .title{
-    font-size: 75px;
+    font-size: 80px;
 }
 .title::after{
     content: "";

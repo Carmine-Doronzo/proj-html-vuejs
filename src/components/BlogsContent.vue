@@ -1,6 +1,6 @@
 <template>
     <img src="/img/triangle.svg" alt="" class="triangle tiangle-upside">
-    <div class="bg-blogs">
+    <div class="bg-blogs" id="blog">
         <div class="container-blogs">
             <h4 class="title-blogs">TALES FROM THE BARBER SHOP</h4>
             <h1 class="description-blogs lora">Recent Blog Post </h1>

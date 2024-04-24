@@ -7,7 +7,7 @@
     </div>
 
     <AwardsContent />
-    <div class="container-services">
+    <div class="container-services" id="services">
         <div class="services">
             <h4 class="service-title">MENS GROOMING</h4>
             <h1 class="service-description lora">Services</h1>

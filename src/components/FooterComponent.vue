@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-191a1a">
+    <div class="bg-191a1a" id="footer">
         <div class="container-footer">
             <div class="row-footer">
                 <div class="card-footer" v-for="(item, i) in footer" :key="i">
@@ -20,6 +20,7 @@
     </div>
     <div class="bg-1c1d1e">
         <p class="dark-grey">&copy; Copyright 2012 - 2020 | Avada Theme by ThemeFusion | All Right Reserved | powered by WordPress</p>
+        <a href="#header" class="home"><i class="fa-solid fa-chevron-up"></i></a>
     </div>
 </template>
 

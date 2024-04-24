@@ -1,5 +1,5 @@
 <template>
-    <div class="container-reviews">
+    <div class="container-reviews" id="review">
         <h4 class="title-review">WHAT PEOPLE SAY</h4>
         <h1 class="description-review lora">Reviews</h1>
         <div class="row-reviews">

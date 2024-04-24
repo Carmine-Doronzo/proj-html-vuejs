@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-products">
+    <div class="bg-products" id="shopping">
         <h3 class="products-title">WE HAVE YOU COVERED</h3>
         <h1 class="products-description lora">Avada Grooming Products</h1>
         <div class="container-products">
