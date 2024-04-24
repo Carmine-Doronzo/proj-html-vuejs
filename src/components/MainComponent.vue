@@ -27,18 +27,7 @@
     
     <ProductsCarouselContent/>
 
-    <div class="container-reviews">
-        <h4 class="title-review">WHAT PEOPLE SAY</h4>
-        <h1 class="description-review">Reviews</h1>
-        <div class="row-reviews">
-            <div class="card-reviews" v-for="(review,i) in reviews" :key="i">
-                <p class="review">{{ review.review }}</p>
-                <img :src="`${review.img}`" alt="">
-                <h5 class="name-review">{{ review.name }}</h5>
-            </div>
-        </div>
-        
-    </div>
+    <ReviewsContent />
     
 
 </template>
@@ -49,12 +38,13 @@ import AwardsContent from '../components/AwardsContent.vue'
 import ServicesContent from '../components/ServicesContent.vue'
 import ProductsContent from '../components/ProductsContent.vue'
 import ProductsCarouselContent from '../components/ProductsCarouselContent.vue'
+import ReviewsContent from '../components/ReviewsContent.vue'
 import { db } from '../store.js'
 export default {
     data() {
         return {
             service: db.services,
-            reviews:db.rewiews
+            
            
         }
 
@@ -64,7 +54,9 @@ export default {
         AwardsContent,
         ServicesContent,
         ProductsContent,
-        ProductsCarouselContent
+        ProductsCarouselContent,
+        ReviewsContent
+
     }
 
 }
@@ -72,46 +64,5 @@ export default {
 
 <style lang="scss" scoped>
 @use '../style/partials/main.scss';
-.container-reviews{
-    margin: 0 auto;
-    width: 1024px;
-    padding-top: 150px;
-    text-align: center;
-}
-.row-reviews{
-    width: 100%;
-    display: flex;
-    gap: 80px;
 
-}
-.card-reviews{
-    padding: 60px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    line-height: 30px;
-    gap: 20px;
-}
-.card-reviews img{
-    width: 100px;
-    aspect-ratio: 1/1;
-    border-radius: 50%;
-}
-.title-review{
-    font-size: 20px;
-    color: #be9359;
-}
-.description-review{
-    font-size: 80px;
-    color: #b0b0b0;
-}
-.name-review{
-    color: #be9359;
-    font-style: italic;
-}
-.review{
-    font-size:16px;
-}
 </style>

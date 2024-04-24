@@ -1,0 +1,42 @@
+.container-reviews{
+    margin: 0 auto;
+    width: 1024px;
+    padding-top: 150px;
+    text-align: center;
+}
+.row-reviews{
+    width: 100%;
+    display: flex;
+    gap: 80px;
+
+}
+.card-reviews{
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+    gap: 20px;
+}
+.card-reviews img{
+    width: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+.title-review{
+    font-size: 20px;
+    color: #be9359;
+}
+.description-review{
+    font-size: 80px;
+    color: #b0b0b0;
+}
+.name-review{
+    color: #be9359;
+    font-style: italic;
+}
+.review{
+    font-size:16px;
+}
