@@ -7,7 +7,7 @@
             </div>
             <div class="col-8">
                 <h4 class="orange-color"> THIS MONTHS FEATURED PRODUCT</h4>
-                <h1>{{ product[i].name }}</h1>
+                <h1 class="lora">{{ product[i].name }}</h1>
                 <p class="grey-color">{{ product[i].description }}</p>
                 <div class="orange-color button-carousel">BUY NOW</div>
             </div>

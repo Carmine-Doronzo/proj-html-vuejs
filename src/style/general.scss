@@ -9,3 +9,10 @@
 @use './partials/carousel.scss';
 @use './partials/reviews.scss';
 @use './partials/blogs.scss';
+
+.lora{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }

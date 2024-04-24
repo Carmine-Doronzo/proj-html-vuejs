@@ -7,7 +7,7 @@
                     <h4 class="award-title">AWARD WINNING</h4>
                 </a>
 
-                <h1 class="award-description">Pro Barbers</h1>
+                <h1 class="award-description lora">Pro Barbers</h1>
                 <div class="new-barber">MEET YOUR NEW BARBER</div>
 
             </div>
