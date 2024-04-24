@@ -136,17 +136,17 @@ export const db = reactive({
         {
             name:'John Doe',
             img:'/img/avadabarbers-trimcut-gallery6-200x200.jpg',
-            review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ex aut dolorum natus fuga nihil delectus tempora impedit voluptatibus, quia inventore doloremque consequatur perspiciatis debitis tempore repellat officiis minima cum! Odit vel officia id eveniet ea nobis!'
+            review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ex aut dolorum natus fuga nihil delectus tempora impedit voluptatibus, quia inventore doloremque consequatur perspiciatis debitis '
         },
         {
             name:'Pete Jones',
             img:'/img/avadabarbers-trimcut-gallery7-200x201.jpg',
-            review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ex aut dolorum natus fuga nihil delectus tempora impedit voluptatibus, quia inventore doloremque consequatur perspiciatis debitis tempore repellat officiis minima cum! Odit vel officia id eveniet ea nobis!'
+            review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ex aut dolorum natus fuga nihil delectus tempora impedit voluptatibus, quia inventore doloremque consequatur perspiciatis debitis '
         },
         {
             name:'Mark Wilson',
             img:'/img/avadabarbers-trimcut-gallery3-200x201.jpg',
-            review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ex aut dolorum natus fuga nihil delectus tempora impedit voluptatibus, quia inventore doloremque consequatur perspiciatis debitis tempore repellat officiis minima cum! Odit vel officia id eveniet ea nobis!'
+            review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ex aut dolorum natus fuga nihil delectus tempora impedit voluptatibus, quia inventore doloremque consequatur perspiciatis debitis '
         },
     ],
     blogs:[
