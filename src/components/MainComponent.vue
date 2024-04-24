@@ -23,7 +23,7 @@
     <img src="/img/triangle.svg" alt="" class="triangle bg-triangle">
     
     <ProductsContent/>
-
+    
     
     <ProductsCarouselContent/>
 

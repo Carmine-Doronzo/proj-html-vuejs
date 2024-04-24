@@ -131,6 +131,40 @@ export const db = reactive({
         "fa-brands fa-twitter",
         "fa-brands fa-youtube",
         "fa-brands fa-instagram"
+    ],
+    rewiews:[
+        {
+            name:'John Doe',
+            img:'/img/avadabarbers-trimcut-gallery6-200x200.jpg',
+            review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ex aut dolorum natus fuga nihil delectus tempora impedit voluptatibus, quia inventore doloremque consequatur perspiciatis debitis tempore repellat officiis minima cum! Odit vel officia id eveniet ea nobis!'
+        },
+        {
+            name:'Pete Jones',
+            img:'/img/avadabarbers-trimcut-gallery7-200x201.jpg',
+            review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ex aut dolorum natus fuga nihil delectus tempora impedit voluptatibus, quia inventore doloremque consequatur perspiciatis debitis tempore repellat officiis minima cum! Odit vel officia id eveniet ea nobis!'
+        },
+        {
+            name:'Mark Wilson',
+            img:'/img/avadabarbers-trimcut-gallery3-200x201.jpg',
+            review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ex aut dolorum natus fuga nihil delectus tempora impedit voluptatibus, quia inventore doloremque consequatur perspiciatis debitis tempore repellat officiis minima cum! Odit vel officia id eveniet ea nobis!'
+        },
+    ],
+    blogs:[
+        {
+            img:'/img/avadabarbers-second-blog-320x202.jpg',
+            title:'Avada Barbers Now Open',
+            text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odio velit dolores sed laboriosam! Perspiciatis, nobis quidem?'
+        },
+        {
+            img:'/img/avadabarbers-choosing-blog-320x202.jpg',
+            title:'Choosing The Right Barber',
+            text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odio velit dolores sed laboriosam! Perspiciatis, nobis quidem?'
+        },
+        {
+            img:'/img/avadabarbers-ourservice-blog-320x202.jpg',
+            title:'Quick Service Guide',
+            text:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odio velit dolores sed laboriosam! Perspiciatis, nobis quidem?'
+        },
     ]
 
 })
