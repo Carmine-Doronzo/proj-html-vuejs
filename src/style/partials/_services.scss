@@ -57,6 +57,11 @@
     color: #be9359;
     font-size: 20px;
 }
+.our-services:hover{
+    //margin: 15px;
+    background-color: #be925910;
+    cursor: pointer;
+}
 .bg-triangle{
     filter: brightness(0) saturate(100%) invert(4%) sepia(5%) saturate(2072%) hue-rotate(182deg) brightness(92%) contrast(91%);
     margin: 0;
