@@ -10,7 +10,7 @@
                     </div>
                     <div :class="i === 1 ? 'orange-color':'orange-color button-footer'">{{ item.button }}</div>
                     <div v-if="i === 1" class="social white-color">
-                        <span v-for="(item,y) in socialLink" :key="y"><i :class="`${item}`"></i></span>
+                        <a href="#" v-for="(item,y) in socialLink" :key="y"><i :class="`${item}`"></i></a>
                     </div>
 
                 </div>
